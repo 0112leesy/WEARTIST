@@ -1,0 +1,233 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+header .main_menu{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1450px;
+    margin: 20px 0px;
+}
+
+header .main_menu h1{
+    display: inline;
+    padding: 0px 80px;
+}
+
+header .main_menu h1 a{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 38px;
+    font-weight: lighter;
+    color: #0159B1;
+    text-decoration-line: none;
+}
+
+header .main_menu #gnb{
+    list-style-type: none;
+}
+
+header .main_menu #gnb li{
+    float: left;
+    margin-top: 5px;
+}
+
+header .main_menu #gnb #arts{
+    color: #0159B1;
+}
+
+
+header .main_menu #gnb li a{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    padding: 10px 40px;
+    transition: all 0.5s;
+    text-decoration-line: none;
+}
+
+header .main_menu #gnb li a:hover{
+    color: #0159B1;
+    font-weight: bold;
+    font-size: large;
+}
+
+section{
+    display: flex;
+    margin: 55px 50px;
+}
+
+figure .upload{
+    width: 470px;
+    height: 470px;
+}
+
+figure .upload img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+article{
+    margin-left: 20px;
+    width: 950px;
+    height: 470px;
+    background: #0159B1;
+}
+
+article form{
+    overflow: hidden;
+    position: relative;
+    margin: 40px 70px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: #FFF;
+}
+
+article form label{
+    display: flex;
+}
+
+article form #lab{
+    display: inline-block;
+    width: 90px;
+    height: 80px;
+
+    font-size: 20px;
+}
+
+article form #input_text_title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 300px;
+    height: 25px;
+    background-color: #0159B1;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+article form #input_text_tag{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    height: 25px;
+    background-color: #0159B1;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-right: 15px;
+}
+
+article form #story_area{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: #0159B1;
+    color: white;
+    border: 2px solid white;
+}
+
+article form #lab_op{
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    margin-top: -2px;
+
+    font-size: 20px;
+}
+
+article form #label_option{
+    margin-top: 35px;
+}
+
+article form #op1{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+article form #op2{
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+article form #button_cover{
+    display: flex;
+    justify-content: right;
+    margin-left: 10px;
+}
+
+article form #buttons{
+    display: flex;
+    justify-content: right;
+    width: 800px;
+
+}
+
+article form #upload_button{
+    font-family: 'Roboto', sans-serif;
+    color: #0159B1;
+    background-color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border: 2px solid #0159B1;
+    width: 100px;
+    height: 25px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    clear: both;
+    background-color: #F3F3F3;
+    position: absolute;
+    left: 0px;
+    top: 671.2px;
+}
+
+footer .inner{
+    width: 1180px;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5px;
+    color: #666;
+}
+
+footer .inner #tel{
+    padding-top: 15px;
+    margin-bottom: 0px;  
+}
+
+footer .inner #copyright{
+    margin-top: 2px;
+}

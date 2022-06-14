@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEARTIST</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9d9d67d672.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style_upload.css">
+    <script defer src="js/ie.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Roboto&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="main_menu">
+            <h1>
+                <a href="./main.html">WEARTIST</a>
+            </h1>
+            <ul id="gnb">
+                <li><a href="./main.html" id="home">Home</a></li>
+                <li><a href="./artworks.html" id="arts">Art Works</a></li>
+                <li><a href="./community_free.html" id="com">Community</a></li>
+                <li><a href="./about.html" id="about">About Us</a></li>
+                <li><a href="./profile_user1.html" id="prof">Profile</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section>
+        <figure>
+            <div class="upload">
+                <img src="img/popanimal_1.jpg" alt="인기 작품 1">
+            </div>
+        </figure>
+    
+        <article>
+            <form>
+                <label>
+                    <span id="lab">Title</span><input type="text" id="input_text_title"><br>
+                </label>
+                <label>
+                    <span id="lab">Tags</span><input type="text" id="input_text_tag" list="tags">
+                    <datalist id="tags">
+                        <option value="animal">
+                        <option value="nature">
+                        <option value="simple">
+                        <option value="classic">    
+                    </datalist>
+                    <input type="text" id="input_text_tag" list="tags">
+                    <datalist id="tags">
+                        <option value="animal">
+                        <option value="nature">
+                        <option value="simple">
+                        <option value="classic">    
+                    </datalist>
+                    <input type="text" id="input_text_tag" list="tags">
+                    <datalist id="tags">
+                        <option value="animal">
+                        <option value="nature">
+                        <option value="simple">
+                        <option value="classic">    
+                    </datalist><br>
+                </label>
+                <label>
+                    <span id="lab">Story</span><textarea cols="63" rows="5" id="story_area"></textarea><br>
+                </label>
+                <label id="label_option">
+                    <span id="lab_op">Option</span><input type="radio" name="option" id="op1" value="public" checked>PUBLIC
+                    <input type="radio" name="option" id="op2" value="protected">PROTECTED<br>
+                </label>
+
+                <div id="buttons">
+                    <div id="button_cover"><a href="./artworks.html" id="upload_button" onclick="javascript:alert('calceled')">CANCEL</a></div>
+                    <div id="button_cover"><a href="./artworks.html" id="upload_button"onclick="javascript:alert('uploaded')">UPLOAD</a></div>
+                </div>                
+            </form>
+        </article>
+    </section>
+    
+    <footer>
+        <div class="inner">
+            <p id="tel">
+                TEL) 02-123-4567
+            </p>
+            <p id="copyright">
+               COPYRIGHT (C) 2022 WEARTIST. ALL RIGHTS RESERVED
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
